@@ -1,0 +1,20 @@
+How to Connect Real Andriod Mobiel Device on Windows
+
+Steps:
+    1.Java Setups
+    2.Android Studio downloads
+    	https://developer.android.com/studio?
+        Download Andriod SDK and Extract folder in desktop
+    3.Connect mobie through Vyser(Vyser Download and install)
+    4.https://developer.android.com/studio/command-line/sdkmanager
+    	sdkmanager "platform-tools" "platforms;android-28"
+      	C:\AndriodSDK\tools\bin>sdkmanager "platform-tools" "platforms;android-28"
+    5.Set Environment variable path for Andriod SDK
+       C:\AndriodSDK\platform-tools
+    6.C:\Users\bnuft>adb devices
+    7.Make Device Ready
+        Enable Develope mode
+        Make USB Debugging ON
+
+
+

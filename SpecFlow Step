@@ -1,0 +1,63 @@
+https://specflow.org/documentation/SpecFlow-and-.NET-Core/
+https://specflow.org/getting-started/#AddingFeature
+https://specflow.org/2017/fit-for-purpose-gherkin/
+https://specflow.org/documentation/SpecFlow-and-.NET-Core/
+https://specflow.org/documentation/generate-tests-from-msbuild/
+
+
+
+Option 1: Run Binding Tool
+Right-click on the feature file
+Select "Run Custom Tool"
+This causes the SpecFlowSingleFileGenerator to regenerate the code-behind for your test framework.
+
+Option 2: Restart Visual Studio
+Close Visual Studio
+Open Visual Studio
+Reopen solution
+This causes any bindings that haven't been cached to rerun.
+
+Option 3: Clear SpecFlow Step Mapping Cache
+Close Visual Studio
+Open Windows Explorer
+Type %TEMP% in Address Bar and hit Enter
+Search for "specflow-stepmap-*.cache"
+Delete those files
+Open Visual Studio
+Reopen solution
+
+
+SpecFlow Version:
+ 3.0
+ 2.4
+ 2.3
+ 2.2
+ 2.1
+ 2.0
+ 1.9
+Used Test Runner
+ SpecFlow+Runner
+ MSTest
+ NUnit
+ Xunit
+Version number:
+3
+
+Visual Studio Version
+ VS 2019
+ VS 2017
+ VS 2015
+Are the latest Visual Studio updates installed?
+ Yes
+ No
+.NET Framework:
+ >= .NET 4.5
+ before .NET 4.5
+ .NET Core 2.0
+ .NET Core 2.1
+ .NET Core 2.2
+ .NET Core 3.0
+Test Execution Method:
+ Visual Studio Test Explorer
+ TFS/VSTS/Azure DevOps – Task – PLEASE SPECIFY THE NAME OF THE TASK
+ Command line – PLEASE SPECIFY THE FULL COMMAND LINE

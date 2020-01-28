@@ -1,0 +1,33 @@
+
+Appium official Documentation
+
+   http://appium.io
+
+Appium Client Libraries
+   http://appium.io/downloads.html
+
+Appium Desktop Apps
+https://github.com/appium/appium-desktop/releases/tag/v1.15.0-1
+
+Client libraries with Appium
+http://appium.io/docs/en/about-appium/appium-clients/
+
+Appium-doctor
+https://github.com/appium/appium-doctor
+
+Appium Desired Capabilities
+https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md
+
+Appium Studio
+https://experitest.com/mobile-test-automation/appium-studio/
+
+SDKManager
+https://developer.android.com/studio/intro
+
+
+
+
+
+
+
+

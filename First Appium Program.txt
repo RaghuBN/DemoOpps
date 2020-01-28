@@ -1,0 +1,16 @@
+
+	Running Frist Test On a Real Mobile Device
+
+ 		 1. Download and open IDE
+
+ 		 2. Create Java Project
+
+  		 3. Add Selenium and Appium Libraries
+
+  		 4. Connect Appium Server
+
+  		 5. Start Appium Server
+
+ 		 6. Write Code to strat a mobile Application
+
+ 		 7. Use appium desktop client to find element locator
